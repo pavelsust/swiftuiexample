@@ -19,7 +19,8 @@ struct CustomList: View {
                 .font(.headline)
                 .foregroundColor(.black)
             Spacer()
-        }
+        }.frame(height: 80)
+            .background(Color.teal)
     }
 }
 

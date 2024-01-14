@@ -17,14 +17,18 @@ struct ListView: View {
     
     var body: some View{
         NavigationStack {
-            List(animalList, id: \.title){ item in
-                NavigationLink(destination: DetailsView(animal: item), label: {
-                    CustomList(animal: item)
-                })
+            List(animalList, id: \.id){ item in
+                CustomNavigationLink {
+                  DetailsView(animal: item)
+                } label: {
+                  CustomList(animal: item)
+                }
             }
             .navigationTitle("Animal")
         }
     }
+    
+
 }
 
 #Preview {

@@ -15,6 +15,7 @@
 		199A21262B54155D00A610AA /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199A21252B54155D00A610AA /* ListView.swift */; };
 		199A21282B5419FF00A610AA /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199A21272B5419FF00A610AA /* DetailsView.swift */; };
 		199A212A2B54666100A610AA /* CustomList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199A21292B54666100A610AA /* CustomList.swift */; };
+		199A212C2B54744400A610AA /* CustomNavigationLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199A212B2B54744400A610AA /* CustomNavigationLink.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		199A21252B54155D00A610AA /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		199A21272B5419FF00A610AA /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
 		199A21292B54666100A610AA /* CustomList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomList.swift; sourceTree = "<group>"; };
+		199A212B2B54744400A610AA /* CustomNavigationLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationLink.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 				199A21252B54155D00A610AA /* ListView.swift */,
 				199A21272B5419FF00A610AA /* DetailsView.swift */,
 				199A21292B54666100A610AA /* CustomList.swift */,
+				199A212B2B54744400A610AA /* CustomNavigationLink.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -168,6 +171,7 @@
 				199A21262B54155D00A610AA /* ListView.swift in Sources */,
 				199A21282B5419FF00A610AA /* DetailsView.swift in Sources */,
 				199A21122B540D8900A610AA /* ContentView.swift in Sources */,
+				199A212C2B54744400A610AA /* CustomNavigationLink.swift in Sources */,
 				199A21102B540D8900A610AA /* SwiftUIListTestApp.swift in Sources */,
 				199A212A2B54666100A610AA /* CustomList.swift in Sources */,
 				199A21232B54152300A610AA /* Animal.swift in Sources */,
