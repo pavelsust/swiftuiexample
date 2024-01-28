@@ -16,6 +16,7 @@
 		199A21282B5419FF00A610AA /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199A21272B5419FF00A610AA /* DetailsView.swift */; };
 		199A212A2B54666100A610AA /* CustomList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199A21292B54666100A610AA /* CustomList.swift */; };
 		199A212C2B54744400A610AA /* CustomNavigationLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199A212B2B54744400A610AA /* CustomNavigationLink.swift */; };
+		19EBC62B2B57F6A6003551B0 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19EBC62A2B57F6A6003551B0 /* CircleImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		199A21272B5419FF00A610AA /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
 		199A21292B54666100A610AA /* CustomList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomList.swift; sourceTree = "<group>"; };
 		199A212B2B54744400A610AA /* CustomNavigationLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationLink.swift; sourceTree = "<group>"; };
+		19EBC62A2B57F6A6003551B0 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 				199A21272B5419FF00A610AA /* DetailsView.swift */,
 				199A21292B54666100A610AA /* CustomList.swift */,
 				199A212B2B54744400A610AA /* CustomNavigationLink.swift */,
+				19EBC62A2B57F6A6003551B0 /* CircleImage.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -169,6 +172,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				199A21262B54155D00A610AA /* ListView.swift in Sources */,
+				19EBC62B2B57F6A6003551B0 /* CircleImage.swift in Sources */,
 				199A21282B5419FF00A610AA /* DetailsView.swift in Sources */,
 				199A21122B540D8900A610AA /* ContentView.swift in Sources */,
 				199A212C2B54744400A610AA /* CustomNavigationLink.swift in Sources */,

@@ -13,13 +13,13 @@ struct ListView: View {
                       Animal(id: 2, title: "Title 2"),
                       Animal(id: 3, title: "Title 3"),
                       Animal(id: 4, title: "Title 4"),
-                      Animal(id: 5, title: "Title 5"),]
+                      Animal(id: 5, title: "Title 5")]
     
     var body: some View{
         NavigationStack {
             List(animalList, id: \.id){ item in
                 CustomNavigationLink {
-                  DetailsView(animal: item)
+                  DetailsView()
                 } label: {
                   CustomList(animal: item)
                 }
@@ -27,8 +27,6 @@ struct ListView: View {
             .navigationTitle("Animal")
         }
     }
-    
-
 }
 
 #Preview {

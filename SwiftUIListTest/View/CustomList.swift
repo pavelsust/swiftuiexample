@@ -20,7 +20,6 @@ struct CustomList: View {
                 .foregroundColor(.black)
             Spacer()
         }.frame(height: 80)
-            .background(Color.teal)
     }
 }
 
