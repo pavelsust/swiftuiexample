@@ -15,16 +15,27 @@ struct ListView: View {
                       Animal(id: 4, title: "Title 4"),
                       Animal(id: 5, title: "Title 5")]
     
+//    var body: some View{
+//        NavigationStack {
+//            List(animalList, id: \.id){ item in
+//                CustomNavigationLink {
+//                  DetailsView()
+//                } label: {
+//                  CustomList(animal: item)
+//                }
+//            }
+//            .navigationTitle("Animal")
+//        }
+//    }
+    
     var body: some View{
-        NavigationStack {
-            List(animalList, id: \.id){ item in
-                CustomNavigationLink {
-                  DetailsView()
-                } label: {
-                  CustomList(animal: item)
+        NavigationView {
+            List(animalList, id:\.id) { trail in
+                NavigationLink(destination: DetailsView()) {
+                    CustomList(animal: trail)
                 }
             }
-            .navigationTitle("Animal")
+            .navigationBarTitle("Hiking Trails")
         }
     }
 }
