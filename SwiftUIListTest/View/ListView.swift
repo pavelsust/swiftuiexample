@@ -9,34 +9,35 @@ import SwiftUI
 
 struct ListView: View {
     
-    var animalList = [Animal(id: 1, title: "Title 1"),
-                      Animal(id: 2, title: "Title 2"),
-                      Animal(id: 3, title: "Title 3"),
-                      Animal(id: 4, title: "Title 4"),
-                      Animal(id: 5, title: "Title 5")]
     
-//    var body: some View{
-//        NavigationStack {
-//            List(animalList, id: \.id){ item in
-//                CustomNavigationLink {
-//                  DetailsView()
-//                } label: {
-//                  CustomList(animal: item)
-//                }
-//            }
-//            .navigationTitle("Animal")
-//        }
-//    }
+    @State private var showFavouriteOnly = false
     
-    var body: some View{
-        NavigationView {
-            List(animalList, id:\.id) { trail in
-                NavigationLink(destination: DetailsView()) {
-                    CustomList(animal: trail)
+    var animalList = [Animal(id: 1, title: "Title 1", isFavourite: true),
+                      Animal(id: 2, title: "Title 2", isFavourite: false),
+                      Animal(id: 3, title: "Title 3", isFavourite: true),
+                      Animal(id: 4, title: "Title 4", isFavourite: false),
+                      Animal(id: 5, title: "Title 5", isFavourite: false)]
+    
+    
+    var filternedAnimalList : [Animal] {
+        animalList.filter{ animal in
+            ( !showFavouriteOnly || animal.isFavourite)
+        }
+    }
+    
+    var body: some View {
+        NavigationStack{
+            List{
+                Toggle("Only Favourite Show", isOn: $showFavouriteOnly)
+                ForEach(filternedAnimalList, id: \.title){ animal in
+                    NavigationLink(destination: DetailsView()){
+                        CustomList(animal: animal)
+                    }
                 }
             }
-            .navigationBarTitle("Hiking Trails")
+            .navigationTitle("Hiking Trails")
         }
+        
     }
 }
 

@@ -11,4 +11,5 @@ import Foundation
 struct Animal{
     var id: Int
     var title: String
+    var isFavourite : Bool
 }

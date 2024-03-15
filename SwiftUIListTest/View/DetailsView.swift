@@ -31,6 +31,7 @@ struct DetailsView: View {
                 
                 Text("About Land Mark")
                     .font(.title2)
+                
                 Text("Landmark Description")
                     .font(.system(size: 18))
                 

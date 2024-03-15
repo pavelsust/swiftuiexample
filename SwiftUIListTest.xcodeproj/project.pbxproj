@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		194189042BA4439A0027A834 /* ParentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194189032BA4439A0027A834 /* ParentView.swift */; };
 		199A21102B540D8900A610AA /* SwiftUIListTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199A210F2B540D8900A610AA /* SwiftUIListTestApp.swift */; };
 		199A21122B540D8900A610AA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199A21112B540D8900A610AA /* ContentView.swift */; };
 		199A21142B540D8B00A610AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 199A21132B540D8B00A610AA /* Assets.xcassets */; };
@@ -16,10 +17,14 @@
 		199A21282B5419FF00A610AA /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199A21272B5419FF00A610AA /* DetailsView.swift */; };
 		199A212A2B54666100A610AA /* CustomList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199A21292B54666100A610AA /* CustomList.swift */; };
 		199A212C2B54744400A610AA /* CustomNavigationLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199A212B2B54744400A610AA /* CustomNavigationLink.swift */; };
+		19A085EC2B7B847200B81C2E /* StateExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A085EB2B7B847200B81C2E /* StateExample.swift */; };
+		19A085EE2B7B889F00B81C2E /* ZSStateExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A085ED2B7B889F00B81C2E /* ZSStateExample.swift */; };
+		19A085F02B7BA9DA00B81C2E /* ShowStateDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A085EF2B7BA9DA00B81C2E /* ShowStateDetailView.swift */; };
 		19EBC62B2B57F6A6003551B0 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19EBC62A2B57F6A6003551B0 /* CircleImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		194189032BA4439A0027A834 /* ParentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentView.swift; sourceTree = "<group>"; };
 		199A210C2B540D8900A610AA /* SwiftUIListTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIListTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		199A210F2B540D8900A610AA /* SwiftUIListTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIListTestApp.swift; sourceTree = "<group>"; };
 		199A21112B540D8900A610AA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -30,6 +35,9 @@
 		199A21272B5419FF00A610AA /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
 		199A21292B54666100A610AA /* CustomList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomList.swift; sourceTree = "<group>"; };
 		199A212B2B54744400A610AA /* CustomNavigationLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationLink.swift; sourceTree = "<group>"; };
+		19A085EB2B7B847200B81C2E /* StateExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateExample.swift; sourceTree = "<group>"; };
+		19A085ED2B7B889F00B81C2E /* ZSStateExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZSStateExample.swift; sourceTree = "<group>"; };
+		19A085EF2B7BA9DA00B81C2E /* ShowStateDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowStateDetailView.swift; sourceTree = "<group>"; };
 		19EBC62A2B57F6A6003551B0 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -97,6 +105,10 @@
 				199A21292B54666100A610AA /* CustomList.swift */,
 				199A212B2B54744400A610AA /* CustomNavigationLink.swift */,
 				19EBC62A2B57F6A6003551B0 /* CircleImage.swift */,
+				19A085EB2B7B847200B81C2E /* StateExample.swift */,
+				19A085ED2B7B889F00B81C2E /* ZSStateExample.swift */,
+				19A085EF2B7BA9DA00B81C2E /* ShowStateDetailView.swift */,
+				194189032BA4439A0027A834 /* ParentView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -172,12 +184,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				199A21262B54155D00A610AA /* ListView.swift in Sources */,
+				19A085F02B7BA9DA00B81C2E /* ShowStateDetailView.swift in Sources */,
 				19EBC62B2B57F6A6003551B0 /* CircleImage.swift in Sources */,
 				199A21282B5419FF00A610AA /* DetailsView.swift in Sources */,
+				194189042BA4439A0027A834 /* ParentView.swift in Sources */,
 				199A21122B540D8900A610AA /* ContentView.swift in Sources */,
 				199A212C2B54744400A610AA /* CustomNavigationLink.swift in Sources */,
+				19A085EE2B7B889F00B81C2E /* ZSStateExample.swift in Sources */,
 				199A21102B540D8900A610AA /* SwiftUIListTestApp.swift in Sources */,
 				199A212A2B54666100A610AA /* CustomList.swift in Sources */,
+				19A085EC2B7B847200B81C2E /* StateExample.swift in Sources */,
 				199A21232B54152300A610AA /* Animal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

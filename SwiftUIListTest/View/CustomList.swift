@@ -19,10 +19,19 @@ struct CustomList: View {
                 .font(.headline)
                 .foregroundColor(.black)
             Spacer()
+            
+            if animal.isFavourite{
+                Image(systemName: "star.fill")
+                    .foregroundColor(/*@START_MENU_TOKEN@*/.blue/*@END_MENU_TOKEN@*/)
+            }else{
+                Image(systemName: "star.fill")
+                    .foregroundColor(.gray)
+            }
+            
         }.frame(height: 80)
     }
 }
 
 #Preview {
-    CustomList(animal: Animal(id: 100, title: "Animal Name"))
+    CustomList(animal: Animal(id: 100, title: "Animal Name", isFavourite: true))
 }
