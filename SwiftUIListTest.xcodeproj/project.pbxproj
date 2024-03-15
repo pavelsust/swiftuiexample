@@ -21,6 +21,7 @@
 		19A085EE2B7B889F00B81C2E /* ZSStateExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A085ED2B7B889F00B81C2E /* ZSStateExample.swift */; };
 		19A085F02B7BA9DA00B81C2E /* ShowStateDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A085EF2B7BA9DA00B81C2E /* ShowStateDetailView.swift */; };
 		19EBC62B2B57F6A6003551B0 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19EBC62A2B57F6A6003551B0 /* CircleImage.swift */; };
+		19F84ED32BA4D5D10081BD8E /* StateTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F84ED22BA4D5D10081BD8E /* StateTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		19A085ED2B7B889F00B81C2E /* ZSStateExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZSStateExample.swift; sourceTree = "<group>"; };
 		19A085EF2B7BA9DA00B81C2E /* ShowStateDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowStateDetailView.swift; sourceTree = "<group>"; };
 		19EBC62A2B57F6A6003551B0 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		19F84ED22BA4D5D10081BD8E /* StateTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 		199A21242B54155000A610AA /* View */ = {
 			isa = PBXGroup;
 			children = (
+				19F84ECF2BA4D5700081BD8E /* stateexample */,
 				199A21252B54155D00A610AA /* ListView.swift */,
 				199A21272B5419FF00A610AA /* DetailsView.swift */,
 				199A21292B54666100A610AA /* CustomList.swift */,
@@ -111,6 +114,14 @@
 				194189032BA4439A0027A834 /* ParentView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		19F84ECF2BA4D5700081BD8E /* stateexample */ = {
+			isa = PBXGroup;
+			children = (
+				19F84ED22BA4D5D10081BD8E /* StateTest.swift */,
+			);
+			path = stateexample;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -185,6 +196,7 @@
 			files = (
 				199A21262B54155D00A610AA /* ListView.swift in Sources */,
 				19A085F02B7BA9DA00B81C2E /* ShowStateDetailView.swift in Sources */,
+				19F84ED32BA4D5D10081BD8E /* StateTest.swift in Sources */,
 				19EBC62B2B57F6A6003551B0 /* CircleImage.swift in Sources */,
 				199A21282B5419FF00A610AA /* DetailsView.swift in Sources */,
 				194189042BA4439A0027A834 /* ParentView.swift in Sources */,
