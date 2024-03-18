@@ -25,19 +25,37 @@ struct ListView: View {
         }
     }
     
-    var body: some View {
-        NavigationStack{
-            List{
-                Toggle("Only Favourite Show", isOn: $showFavouriteOnly)
-                ForEach(filternedAnimalList, id: \.title){ animal in
-                    NavigationLink(destination: DetailsView()){
-                        CustomList(animal: animal)
-                    }
+//    var body: some View {
+//        NavigationStack{
+//            List{
+//                Toggle("Only Favourite Show", isOn: $showFavouriteOnly)
+//                ForEach(filternedAnimalList, id: \.title){ animal in
+//                    NavigationLink(destination: DetailsView()){
+//                        CustomList(animal: animal)
+//                    }
+//                }
+//            }
+//            .navigationTitle("Hiking Trails")
+//        }
+//        
+//    }
+    
+    
+    var body: some View{
+        NavigationSplitView{
+            
+            List(animalList, id: \.id){animal in
+                
+                NavigationLink{
+                    DetailsView()
+                } label: {
+                    CustomList(animal: animal)
                 }
             }
-            .navigationTitle("Hiking Trails")
+            .navigationTitle("Custom List")
+        } detail: {
+           Text("Hello World")
         }
-        
     }
 }
 

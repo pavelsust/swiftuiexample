@@ -15,9 +15,11 @@ struct CustomList: View {
             Image("hiddenlake")
                 .resizable()
                 .frame(width: 50, height: 50)
+            
             Text(animal.title)
                 .font(.headline)
                 .foregroundColor(.black)
+            
             Spacer()
             
             if animal.isFavourite{
