@@ -17,7 +17,6 @@ struct StateTest: View {
     var body: some View {
         ZStack{
             backGroundColor
-            
             VStack{
                 Text(title)
                 StateColorTest(backGroundColor: $backGroundColor, title: $title)
@@ -29,7 +28,6 @@ struct StateTest: View {
 
 
 struct StateColorTest: View {
-    
     
     @Binding var backGroundColor: Color
     @Binding var title : String

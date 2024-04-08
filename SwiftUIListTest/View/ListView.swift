@@ -72,10 +72,9 @@ struct ListView: View {
     }
     
     var body: some View{
-    
         
         NavigationStack{
-            List(animalList , id: \.id){animal in
+            List(animalList , id: \.id){ animal in
                 NavigationLink{
                     DetailsView()
                 }label: {
@@ -131,7 +130,7 @@ struct HorizontalScreen : View {
             
             ScrollView(.horizontal , showsIndicators: false){
                 LazyHStack(alignment: .top, spacing: 0){
-                    ForEach(animalList , id: \.id){animal in
+                    ForEach(animalList , id: \.id){ animal in
                      CustomHorizontalItem()
                     }
                 }

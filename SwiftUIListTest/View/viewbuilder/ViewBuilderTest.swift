@@ -18,6 +18,10 @@ struct ViewBuilderTest: View {
         .tabViewStyle(.page(indexDisplayMode: .always))
         .frame(width: .infinity, height: 100)
         .background(.yellow)
+        
+        CustomCardView(content: {
+            Text("Hello World")
+        })
       }
 }
 

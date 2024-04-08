@@ -23,6 +23,7 @@
 		19C337F22BA83E5200F00380 /* ObservableViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C337F12BA83E5200F00380 /* ObservableViewTest.swift */; };
 		19C337F52BA85DA200F00380 /* EdittextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C337F42BA85DA200F00380 /* EdittextView.swift */; };
 		19C337F82BAA16BA00F00380 /* ViewBuilderTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C337F72BAA16BA00F00380 /* ViewBuilderTest.swift */; };
+		19D36B972BB96A4B0000E136 /* GridItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D36B962BB96A4B0000E136 /* GridItemView.swift */; };
 		19EBC62B2B57F6A6003551B0 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19EBC62A2B57F6A6003551B0 /* CircleImage.swift */; };
 		19F84ED32BA4D5D10081BD8E /* StateTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F84ED22BA4D5D10081BD8E /* StateTest.swift */; };
 		19FE7A242BAADFE100ECA19F /* FeatureCardExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FE7A232BAADFE100ECA19F /* FeatureCardExample.swift */; };
@@ -46,6 +47,7 @@
 		19C337F12BA83E5200F00380 /* ObservableViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableViewTest.swift; sourceTree = "<group>"; };
 		19C337F42BA85DA200F00380 /* EdittextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EdittextView.swift; sourceTree = "<group>"; };
 		19C337F72BAA16BA00F00380 /* ViewBuilderTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBuilderTest.swift; sourceTree = "<group>"; };
+		19D36B962BB96A4B0000E136 /* GridItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridItemView.swift; sourceTree = "<group>"; };
 		19EBC62A2B57F6A6003551B0 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		19F84ED22BA4D5D10081BD8E /* StateTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateTest.swift; sourceTree = "<group>"; };
 		19FE7A232BAADFE100ECA19F /* FeatureCardExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCardExample.swift; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 		199A21242B54155000A610AA /* View */ = {
 			isa = PBXGroup;
 			children = (
+				19D36B952BB96A3C0000E136 /* grid */,
 				19C337F62BAA16A600F00380 /* viewbuilder */,
 				19C337F32BA85D9100F00380 /* childview */,
 				19C337F02BA83E3B00F00380 /* observable */,
@@ -150,6 +153,14 @@
 				19C337F72BAA16BA00F00380 /* ViewBuilderTest.swift */,
 			);
 			path = viewbuilder;
+			sourceTree = "<group>";
+		};
+		19D36B952BB96A3C0000E136 /* grid */ = {
+			isa = PBXGroup;
+			children = (
+				19D36B962BB96A4B0000E136 /* GridItemView.swift */,
+			);
+			path = grid;
 			sourceTree = "<group>";
 		};
 		19F84ECF2BA4D5700081BD8E /* stateexample */ = {
@@ -231,6 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				199A21262B54155D00A610AA /* ListView.swift in Sources */,
+				19D36B972BB96A4B0000E136 /* GridItemView.swift in Sources */,
 				19FE7A242BAADFE100ECA19F /* FeatureCardExample.swift in Sources */,
 				19A085F02B7BA9DA00B81C2E /* ShowStateDetailView.swift in Sources */,
 				19C337F82BAA16BA00F00380 /* ViewBuilderTest.swift in Sources */,
