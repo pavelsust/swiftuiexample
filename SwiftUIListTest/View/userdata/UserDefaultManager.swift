@@ -22,4 +22,13 @@ class UserDefaultManager : ObservableObject{
     @Published var apiToken : String = (UserDefaults.standard.string(forKey: Constant.API_TOKEN) ?? "Pavel"){
         didSet{UserDefaults.standard.set(self.firstToggle, forKey: Constant.API_TOKEN)}
     }
+    
+    func clearAllData(){
+        let userDefault = UserDefaults.standard
+        let userData = userDefault.dictionaryRepresentation()
+        userData.keys.forEach{key in
+            userDefault.removeObject(forKey: key)
+        }
+        
+    }
 }

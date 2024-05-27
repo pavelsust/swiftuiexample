@@ -12,6 +12,10 @@ struct UserDataShow: View {
     @ObservedObject var userDefault = UserDefaultManager()
     @State var userName :String = ""
     
+    init() {
+        userName = userDefault.apiToken
+    }
+    
     
     var body: some View {
         Text("User name is \(userDefault.apiToken)")
@@ -20,6 +24,11 @@ struct UserDataShow: View {
             
             Button("Ok", action: {
                 userDefault.apiToken = "\(userName)"
+            })
+            
+            Button("Remove All", action: {
+                userDefault.clearAllData()
+                
             })
         }
     }
