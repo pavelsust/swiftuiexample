@@ -16,7 +16,6 @@ struct UserDataShow: View {
         userName = userDefault.apiToken
     }
     
-    
     var body: some View {
         Text("User name is \(userDefault.apiToken)")
         VStack{

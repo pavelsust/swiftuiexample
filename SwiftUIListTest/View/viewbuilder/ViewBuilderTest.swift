@@ -15,7 +15,7 @@ struct ViewBuilderTest: View {
             Text("Third")
             Text("Fourth")
         }
-        .tabViewStyle(.page(indexDisplayMode: .always))
+        .tabViewStyle(.page(indexDisplayMode: .automatic))
         .frame(width: .infinity, height: 100)
         .background(.yellow)
         
