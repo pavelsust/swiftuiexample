@@ -49,7 +49,6 @@ struct CounterView: View {
     ObservableViewTest()
 }
 
-
 class Person : ObservableObject {
    @Published var value: Int = 0
     

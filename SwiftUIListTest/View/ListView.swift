@@ -91,7 +91,7 @@ struct ListView: View {
                         }.pickerStyle(.inline)
                         
                         Toggle(isOn: $showFavoritesOnly) {
-                            Label("Favorites only", systemImage: "star.fill")
+                            Label(getUserData(), systemImage: "star.fill")
                         }
                         
                     }

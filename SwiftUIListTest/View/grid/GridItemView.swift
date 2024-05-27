@@ -9,13 +9,6 @@ import SwiftUI
 
 struct GridItemView: View {
     
-//    
-//    ForEach((1...10).reversed(), id: \.self) {
-//           Text("\($0)…")
-//       }
-//    
-//    
-
     
     private let adaptiveColumn = [GridItem(.adaptive(minimum: 140))]
     
