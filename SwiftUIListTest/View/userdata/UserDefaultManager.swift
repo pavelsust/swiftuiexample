@@ -23,12 +23,20 @@ class UserDefaultManager : ObservableObject{
         didSet{UserDefaults.standard.set(self.firstToggle, forKey: Constant.API_TOKEN)}
     }
     
+//    func clearAllData(){
+//        let userDefault = UserDefaults.standard
+//        let userData = userDefault.dictionaryRepresentation()
+//        userData.keys.forEach{key in
+//            userDefault.removeObject(forKey: key)
+//        }
+//        
+//    }
+    
+    
     func clearAllData(){
-        let userDefault = UserDefaults.standard
-        let userData = userDefault.dictionaryRepresentation()
-        userData.keys.forEach{key in
-            userDefault.removeObject(forKey: key)
-        }
+        let domain = Bundle.main.bundleIdentifier!
+        UserDefaults.standard.removePersistentDomain(forName: domain)
+        UserDefaults.standard.synchronize()
         
     }
 }
