@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftUIListTestApp: App {
     var body: some Scene {
         WindowGroup {
-            HorizontalScreen()
+            ProfileView()
         }
     }
 }

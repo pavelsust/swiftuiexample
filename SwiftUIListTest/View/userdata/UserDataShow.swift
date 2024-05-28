@@ -10,6 +10,7 @@ import SwiftUI
 struct UserDataShow: View {
     
     @ObservedObject var userDefault = UserDefaultManager()
+    @ObservedObject var personInformation = PersonInformation()
     @State var userName :String = ""
     
     init() {
@@ -22,6 +23,7 @@ struct UserDataShow: View {
             TextField("Enter your name", text: $userName)
             
             Button("Ok", action: {
+                personInformation.name = "\(userName)"
                 userDefault.apiToken = "\(userName)"
             })
             
