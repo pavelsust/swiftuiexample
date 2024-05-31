@@ -12,6 +12,9 @@
 		199515CD2C065EC000BC1510 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199515CC2C065EC000BC1510 /* ProfileView.swift */; };
 		199515CF2C065ED200BC1510 /* ProfileEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199515CE2C065ED200BC1510 /* ProfileEditView.swift */; };
 		199515D22C0664C200BC1510 /* AlertToast in Frameworks */ = {isa = PBXBuildFile; productRef = 199515D12C0664C200BC1510 /* AlertToast */; };
+		199515D42C07BD7400BC1510 /* EditEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199515D32C07BD7400BC1510 /* EditEmailView.swift */; };
+		199515D62C07C76C00BC1510 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199515D52C07C76C00BC1510 /* User.swift */; };
+		199515D82C07C9A700BC1510 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199515D72C07C9A700BC1510 /* ContentViewModel.swift */; };
 		199A21102B540D8900A610AA /* SwiftUIListTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199A210F2B540D8900A610AA /* SwiftUIListTestApp.swift */; };
 		199A21122B540D8900A610AA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199A21112B540D8900A610AA /* ContentView.swift */; };
 		199A21142B540D8B00A610AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 199A21132B540D8B00A610AA /* Assets.xcassets */; };
@@ -42,6 +45,9 @@
 		199515C72C06578000BC1510 /* PersonInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonInformation.swift; sourceTree = "<group>"; };
 		199515CC2C065EC000BC1510 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		199515CE2C065ED200BC1510 /* ProfileEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditView.swift; sourceTree = "<group>"; };
+		199515D32C07BD7400BC1510 /* EditEmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditEmailView.swift; sourceTree = "<group>"; };
+		199515D52C07C76C00BC1510 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		199515D72C07C9A700BC1510 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 		199A210C2B540D8900A610AA /* SwiftUIListTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIListTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		199A210F2B540D8900A610AA /* SwiftUIListTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIListTestApp.swift; sourceTree = "<group>"; };
 		199A21112B540D8900A610AA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -85,6 +91,9 @@
 			children = (
 				199515CC2C065EC000BC1510 /* ProfileView.swift */,
 				199515CE2C065ED200BC1510 /* ProfileEditView.swift */,
+				199515D32C07BD7400BC1510 /* EditEmailView.swift */,
+				199515D52C07C76C00BC1510 /* User.swift */,
+				199515D72C07C9A700BC1510 /* ContentViewModel.swift */,
 			);
 			path = envirnment;
 			sourceTree = "<group>";
@@ -307,10 +316,12 @@
 				19FE7A242BAADFE100ECA19F /* FeatureCardExample.swift in Sources */,
 				19A085F02B7BA9DA00B81C2E /* ShowStateDetailView.swift in Sources */,
 				19C337F82BAA16BA00F00380 /* ViewBuilderTest.swift in Sources */,
+				199515D62C07C76C00BC1510 /* User.swift in Sources */,
 				19F84ED32BA4D5D10081BD8E /* StateTest.swift in Sources */,
 				19C337F52BA85DA200F00380 /* EdittextView.swift in Sources */,
 				19E7F17C2C04EED70009BBD8 /* UserDataShow.swift in Sources */,
 				19EBC62B2B57F6A6003551B0 /* CircleImage.swift in Sources */,
+				199515D42C07BD7400BC1510 /* EditEmailView.swift in Sources */,
 				199A21282B5419FF00A610AA /* DetailsView.swift in Sources */,
 				194189042BA4439A0027A834 /* ParentView.swift in Sources */,
 				199A21122B540D8900A610AA /* ContentView.swift in Sources */,
@@ -324,6 +335,7 @@
 				199A21102B540D8900A610AA /* SwiftUIListTestApp.swift in Sources */,
 				199A212A2B54666100A610AA /* CustomList.swift in Sources */,
 				19C337F22BA83E5200F00380 /* ObservableViewTest.swift in Sources */,
+				199515D82C07C9A700BC1510 /* ContentViewModel.swift in Sources */,
 				199515CF2C065ED200BC1510 /* ProfileEditView.swift in Sources */,
 				19A085EC2B7B847200B81C2E /* StateExample.swift in Sources */,
 				199A21232B54152300A610AA /* Animal.swift in Sources */,

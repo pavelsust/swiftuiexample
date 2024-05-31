@@ -10,26 +10,26 @@ import AlertToast
 
 struct ProfileEditView: View {
     
-    
-    @State var isToastMessageShow : Bool = false
+    @ObservedObject var viewModel : ContentViewModel
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-            .onAppear{
-                self.isToastMessageShow = true
-                debugPrint("View Appear")
+        NavigationStack{
+            List{
+                Section("Edit Options"){
+                    Text("John Doe")
+                    NavigationLink{
+                        EditEmailView()
+                    }label: {
+                        Text("doe.john@gmail.com")
+                    }
+                    
+                    NavigationLink{
+                        EditAddressView()
+                    } label: {
+                        Text("123 Main St")
+                    }
+                }
             }
-        
-            .onDisappear{
-                self.isToastMessageShow = true
-                debugPrint("View Disappear")
-            }
-            .toast(isPresenting: $isToastMessageShow){
-                AlertToast(displayMode: .banner(.pop), type: .regular, title: "Message Sent!")
-            }
+        }
     }
-}
-
-#Preview {
-    ProfileEditView()
 }
