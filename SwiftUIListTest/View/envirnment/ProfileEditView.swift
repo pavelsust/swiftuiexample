@@ -16,17 +16,19 @@ struct ProfileEditView: View {
         NavigationStack{
             List{
                 Section("Edit Options"){
-                    Text("John Doe")
-                    NavigationLink{
-                        EditEmailView()
-                    }label: {
-                        Text("doe.john@gmail.com")
-                    }
+                    Text("\(viewModel.user.fullName)")
                     
                     NavigationLink{
-                        EditAddressView()
+                        EditEmailView(viewModel: viewModel)
+                    }label: {
+                        Text("\(viewModel.user.email)")
+                    }
+                    
+                    
+                    NavigationLink{
+                        EditAddressView(viewModel: viewModel)
                     } label: {
-                        Text("123 Main St")
+                        Text("\(viewModel.user.address)")
                     }
                 }
             }

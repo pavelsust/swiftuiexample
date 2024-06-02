@@ -1,23 +1,25 @@
 //
-//  ProfileView.swift
+//  TestView.swift
 //  SwiftUIListTest
 //
-//  Created by Masud  Parvez on 29/5/24.
+//  Created by Masud  Parvez on 2/6/24.
 //
 
 import SwiftUI
 
 
-struct ProfileView: View {
+
+struct TestView: View {
     
-    @StateObject var viewModel = ContentViewModel()
+    
+    @EnvironmentObject var viewModel : MainInfoData
+    
     
     var body: some View {
-        
         NavigationStack{
             List{
                 NavigationLink{
-                    EditEmailView(viewModel: viewModel)
+                    TestViewName()
                 }label: {
                     HStack{
                         Text("JD")
@@ -29,17 +31,17 @@ struct ProfileView: View {
                         
                         VStack(alignment: .leading,content: {
                             
-                            Text(viewModel.user.fullName)
+                            Text(viewModel.infoData.name)
                                 .font(.subheadline)
                                 .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
                             
-                            Text(viewModel.user.email)
+                            Text(viewModel.infoData.email)
                                 .font(.footnote)
                                 .fontWeight(.bold)
                                 .padding(.leading , 2)
                                 .foregroundColor(.gray)
                             
-                            Text(viewModel.user.address)
+                            Text(viewModel.infoData.address)
                                 .font(.footnote)
                                 .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
                                 .foregroundStyle(.gray)
@@ -52,6 +54,22 @@ struct ProfileView: View {
     }
 }
 
+
+struct TestViewName : View {
+    
+    @EnvironmentObject var viewModel : MainInfoData
+    
+    var body: some View {
+        NavigationStack{
+            NavigationLink{
+                ViewName()
+            }label: {
+                Text("Name is \(viewModel.infoData.name)")
+            }
+        }
+    }
+}
+
 #Preview {
-    ProfileView()
+    TestView()
 }

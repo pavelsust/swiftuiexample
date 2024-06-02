@@ -12,9 +12,11 @@ struct EditEmailView: View {
     @State private var email = ""
     @Environment(\.dismiss) var dismiss
     
+    @ObservedObject var viewModel : ContentViewModel
+    
     var body: some View {
         VStack {
-            TextField("Work email address", text: $email)
+            TextField("Enter Email Address", text: $email)
                 .font(.title3)
                 .padding()
                 .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/)
@@ -22,34 +24,28 @@ struct EditEmailView: View {
                 .cornerRadius(50)
                 .shadow(color: Color.black.opacity(0.08), radius: 60, x: 0 , y: 20)
             
+            Button("Ok Press", action: {
+                viewModel.user.email = email
+                dismiss()
+            })
+            
             Divider()
             Spacer()
             
-        }
-        .navigationTitle("Edit Email")
-        .navigationBarTitleDisplayMode(.inline)
-        .padding()
-        .toolbar{
-            ToolbarItem(placement: .topBarTrailing, content:{
-                Button("Done", action: {
-                    dismiss()
-                }).fontWeight(.semibold)
-            })
         }
         
     }
 }
 
-#Preview {
-    EditAddressView()
-}
 
 
 struct EditAddressView : View {
     
-    
+    @StateObject var viewModel: ContentViewModel
+
     @State private var address : String = ""
     @Environment(\.dismiss) var dismiss
+
     
     var body: some View {
         VStack{
@@ -68,9 +64,12 @@ struct EditAddressView : View {
         .toolbar {
             ToolbarItem(placement: .topBarTrailing, content: {
                 Button("Done", action: {
+                    viewModel.user.address = self.address
+                    debugPrint("\(self.address)")
                     dismiss()
                 }).fontWeight(.semibold)
             })
         }
     }
 }
+

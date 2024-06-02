@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct SwiftUIListTestApp: App {
+    
+    @StateObject var viewModel : MainInfoData = MainInfoData()
+    
     var body: some Scene {
         WindowGroup {
-            ProfileView()
+            TestView()
+                .environmentObject(viewModel)
         }
     }
 }

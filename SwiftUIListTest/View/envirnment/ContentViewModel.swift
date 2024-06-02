@@ -10,7 +10,7 @@ import Foundation
 class ContentViewModel : ObservableObject{
     @Published var user : User
     
-    init(user: User) {
-        self.user = user
+    init() {
+        self.user = User(fullName: "Masud Parvez", email: "pavelcep.sust11@gmail.com", address: "Demra Dhaka")
     }
 }
