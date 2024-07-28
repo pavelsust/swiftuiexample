@@ -28,6 +28,7 @@ struct ViewBuilderTest: View {
         })
         .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: 100)
         buildDynamicView(condition: false)
+        showLabel(viewState: .School)
         Spacer()
       }
 }
@@ -78,6 +79,7 @@ struct CustomCardView<Content: View>: View{
 }
 
 
+
 @ViewBuilder
 func buildDynamicView(condition : Bool) -> some View{
     if condition {
@@ -86,6 +88,22 @@ func buildDynamicView(condition : Bool) -> some View{
         Text("This view is hidden")
     }
 }
+
+
+enum ViewState{
+    case Home, School, Collage
+}
+
+
+@ViewBuilder
+func showLabel(viewState : ViewState) -> some View{
+    switch viewState {
+    case .Home : Text("Home")
+    case .Collage : Text("College")
+    case .School : Text("School")
+    }
+}
+
 
 #Preview {
     ViewBuilderTest()

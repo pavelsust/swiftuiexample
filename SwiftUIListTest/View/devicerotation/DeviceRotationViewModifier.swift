@@ -46,6 +46,7 @@ struct DeviceRotationVew : View {
     
     var body: some View{
         Text("\(deviceOrientationInfo.getDeviceOrientation().rawValue)")
+
         Group{
             if orientation.isPortrait{
                 Text("Portrait")

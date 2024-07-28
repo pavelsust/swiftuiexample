@@ -78,7 +78,9 @@ struct ListView: View {
                 NavigationLink{
                     DetailsView()
                 }label: {
-                    CustomList(animal: animal)
+                    CustomList(animal: animal, contentClick: {
+                        print("\(animal.title)")
+                    })
                 }
             }
             .navigationTitle("List Item")
