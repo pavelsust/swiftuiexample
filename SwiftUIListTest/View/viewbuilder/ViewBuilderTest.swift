@@ -19,9 +19,16 @@ struct ViewBuilderTest: View {
         .frame(width: .infinity, height: 100)
         .background(.yellow)
         
+//        CustomCardView(content: {
+//            Text("Hello World")
+//        })
+        
         CustomCardView(content: {
-            Text("Hello World")
+            Text("Hello World!!")
         })
+        .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: 100)
+        buildDynamicView(condition: false)
+        Spacer()
       }
 }
 
@@ -34,11 +41,11 @@ struct ShadowBorderModifier: ViewModifier{
 }
 
 
-extension View {
-    func dropShadow() -> some View {
-        ModifiedContent(content: self, modifier: ShadowBorderModifier())
-    }
-}
+//extension View {
+//    func dropShadow() -> some View {
+//        ModifiedContent(content: self, modifier: ShadowBorderModifier())
+//    }
+//}
 
 
 struct CardView<Content: View>: View{
@@ -65,7 +72,7 @@ struct CustomCardView<Content: View>: View{
     
     var body: some View{
         RoundedRectangle(cornerRadius: 10)
-            .fill(Color.white)
+            .fill(Color.green)
             .overlay(content)
     }
 }

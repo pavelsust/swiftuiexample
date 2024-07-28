@@ -11,9 +11,7 @@ import SwiftUI
 
 struct TestView: View {
     
-    
     @EnvironmentObject var viewModel : MainInfoData
-    
     
     var body: some View {
         NavigationStack{

@@ -30,7 +30,7 @@ struct ObservableViewTest: View {
 
 struct CounterView: View {
     
-    @ObservedObject var increment: Person = Person()
+    @StateObject var increment: Person = Person()
     
     var body: some View {
         
@@ -54,7 +54,7 @@ class Person : ObservableObject {
     
     func increasedAmount(){
         value+=1
-        objectWillChange.send()
+        //objectWillChange.send()
         
     }
 }

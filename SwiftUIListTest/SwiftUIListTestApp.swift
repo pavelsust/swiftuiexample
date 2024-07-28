@@ -11,10 +11,11 @@ import SwiftUI
 struct SwiftUIListTestApp: App {
     
     @StateObject var viewModel : MainInfoData = MainInfoData()
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
     
     var body: some Scene {
         WindowGroup {
-            TestView()
+            DeviceRotationVew()
                 .environmentObject(viewModel)
         }
     }

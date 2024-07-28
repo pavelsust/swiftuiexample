@@ -8,10 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		194189042BA4439A0027A834 /* ParentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194189032BA4439A0027A834 /* ParentView.swift */; };
+		195DB0722C185CE800C8CF75 /* onReceiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195DB0712C185CE800C8CF75 /* onReceiveView.swift */; };
 		197953C72C0C50F300D3A9CD /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197953C62C0C50F300D3A9CD /* TestView.swift */; };
 		197953C92C0C5A9900D3A9CD /* ViewName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197953C82C0C5A9900D3A9CD /* ViewName.swift */; };
 		197953CB2C0C5B1700D3A9CD /* InfoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197953CA2C0C5B1700D3A9CD /* InfoData.swift */; };
 		197953CD2C0C5B2F00D3A9CD /* MainInfoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197953CC2C0C5B2F00D3A9CD /* MainInfoData.swift */; };
+		197953D02C0C6E3000D3A9CD /* ScaneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197953CF2C0C6E3000D3A9CD /* ScaneView.swift */; };
+		197953D22C0C729E00D3A9CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197953D12C0C729E00D3A9CD /* AppDelegate.swift */; };
+		197953D52C0C74DA00D3A9CD /* DeviceRotationViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197953D42C0C74DA00D3A9CD /* DeviceRotationViewModifier.swift */; };
 		199515C82C06578000BC1510 /* PersonInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199515C72C06578000BC1510 /* PersonInformation.swift */; };
 		199515CD2C065EC000BC1510 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199515CC2C065EC000BC1510 /* ProfileView.swift */; };
 		199515CF2C065ED200BC1510 /* ProfileEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199515CE2C065ED200BC1510 /* ProfileEditView.swift */; };
@@ -34,6 +38,10 @@
 		19C337F22BA83E5200F00380 /* ObservableViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C337F12BA83E5200F00380 /* ObservableViewTest.swift */; };
 		19C337F52BA85DA200F00380 /* EdittextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C337F42BA85DA200F00380 /* EdittextView.swift */; };
 		19C337F82BAA16BA00F00380 /* ViewBuilderTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C337F72BAA16BA00F00380 /* ViewBuilderTest.swift */; };
+		19C9034C2C34153D00549C94 /* VideoPlayer in Frameworks */ = {isa = PBXBuildFile; productRef = 19C9034B2C34153D00549C94 /* VideoPlayer */; };
+		19C903502C34156000549C94 /* ContentVideoPlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C9034F2C34156000549C94 /* ContentVideoPlay.swift */; };
+		19C903532C341A9F00549C94 /* AZVideoPlayer in Frameworks */ = {isa = PBXBuildFile; productRef = 19C903522C341A9F00549C94 /* AZVideoPlayer */; };
+		19C903552C341AB800549C94 /* VideoPlaySecond.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C903542C341AB800549C94 /* VideoPlaySecond.swift */; };
 		19D36B972BB96A4B0000E136 /* GridItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D36B962BB96A4B0000E136 /* GridItemView.swift */; };
 		19E7F1752C04EB780009BBD8 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E7F1742C04EB780009BBD8 /* Extension.swift */; };
 		19E7F1772C04ECA40009BBD8 /* UserDefaultManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E7F1762C04ECA40009BBD8 /* UserDefaultManager.swift */; };
@@ -46,10 +54,14 @@
 
 /* Begin PBXFileReference section */
 		194189032BA4439A0027A834 /* ParentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentView.swift; sourceTree = "<group>"; };
+		195DB0712C185CE800C8CF75 /* onReceiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onReceiveView.swift; sourceTree = "<group>"; };
 		197953C62C0C50F300D3A9CD /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 		197953C82C0C5A9900D3A9CD /* ViewName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewName.swift; sourceTree = "<group>"; };
 		197953CA2C0C5B1700D3A9CD /* InfoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoData.swift; sourceTree = "<group>"; };
 		197953CC2C0C5B2F00D3A9CD /* MainInfoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainInfoData.swift; sourceTree = "<group>"; };
+		197953CF2C0C6E3000D3A9CD /* ScaneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaneView.swift; sourceTree = "<group>"; };
+		197953D12C0C729E00D3A9CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		197953D42C0C74DA00D3A9CD /* DeviceRotationViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceRotationViewModifier.swift; sourceTree = "<group>"; };
 		199515C72C06578000BC1510 /* PersonInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonInformation.swift; sourceTree = "<group>"; };
 		199515CC2C065EC000BC1510 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		199515CE2C065ED200BC1510 /* ProfileEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditView.swift; sourceTree = "<group>"; };
@@ -72,6 +84,8 @@
 		19C337F12BA83E5200F00380 /* ObservableViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableViewTest.swift; sourceTree = "<group>"; };
 		19C337F42BA85DA200F00380 /* EdittextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EdittextView.swift; sourceTree = "<group>"; };
 		19C337F72BAA16BA00F00380 /* ViewBuilderTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBuilderTest.swift; sourceTree = "<group>"; };
+		19C9034F2C34156000549C94 /* ContentVideoPlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentVideoPlay.swift; sourceTree = "<group>"; };
+		19C903542C341AB800549C94 /* VideoPlaySecond.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlaySecond.swift; sourceTree = "<group>"; };
 		19D36B962BB96A4B0000E136 /* GridItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridItemView.swift; sourceTree = "<group>"; };
 		19E7F1742C04EB780009BBD8 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		19E7F1762C04ECA40009BBD8 /* UserDefaultManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultManager.swift; sourceTree = "<group>"; };
@@ -88,12 +102,38 @@
 			buildActionMask = 2147483647;
 			files = (
 				199515D22C0664C200BC1510 /* AlertToast in Frameworks */,
+				19C9034C2C34153D00549C94 /* VideoPlayer in Frameworks */,
+				19C903532C341A9F00549C94 /* AZVideoPlayer in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		195DB0702C185CD900C8CF75 /* onreceive */ = {
+			isa = PBXGroup;
+			children = (
+				195DB0712C185CE800C8CF75 /* onReceiveView.swift */,
+			);
+			path = onreceive;
+			sourceTree = "<group>";
+		};
+		197953CE2C0C6E1C00D3A9CD /* scane */ = {
+			isa = PBXGroup;
+			children = (
+				197953CF2C0C6E3000D3A9CD /* ScaneView.swift */,
+			);
+			path = scane;
+			sourceTree = "<group>";
+		};
+		197953D32C0C74BB00D3A9CD /* devicerotation */ = {
+			isa = PBXGroup;
+			children = (
+				197953D42C0C74DA00D3A9CD /* DeviceRotationViewModifier.swift */,
+			);
+			path = devicerotation;
+			sourceTree = "<group>";
+		};
 		199515C92C065E8A00BC1510 /* envirnment */ = {
 			isa = PBXGroup;
 			children = (
@@ -158,6 +198,10 @@
 		199A21242B54155000A610AA /* View */ = {
 			isa = PBXGroup;
 			children = (
+				19C9034D2C34154A00549C94 /* video */,
+				195DB0702C185CD900C8CF75 /* onreceive */,
+				197953D32C0C74BB00D3A9CD /* devicerotation */,
+				197953CE2C0C6E1C00D3A9CD /* scane */,
 				199515C92C065E8A00BC1510 /* envirnment */,
 				19E7F17D2C04F8950009BBD8 /* viewmodifier */,
 				19E7F1782C04ED490009BBD8 /* utils */,
@@ -176,6 +220,7 @@
 				19A085ED2B7B889F00B81C2E /* ZSStateExample.swift */,
 				19A085EF2B7BA9DA00B81C2E /* ShowStateDetailView.swift */,
 				194189032BA4439A0027A834 /* ParentView.swift */,
+				197953D12C0C729E00D3A9CD /* AppDelegate.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -203,6 +248,15 @@
 				19C337F72BAA16BA00F00380 /* ViewBuilderTest.swift */,
 			);
 			path = viewbuilder;
+			sourceTree = "<group>";
+		};
+		19C9034D2C34154A00549C94 /* video */ = {
+			isa = PBXGroup;
+			children = (
+				19C9034F2C34156000549C94 /* ContentVideoPlay.swift */,
+				19C903542C341AB800549C94 /* VideoPlaySecond.swift */,
+			);
+			path = video;
 			sourceTree = "<group>";
 		};
 		19D36B952BB96A3C0000E136 /* grid */ = {
@@ -265,6 +319,8 @@
 			name = SwiftUIListTest;
 			packageProductDependencies = (
 				199515D12C0664C200BC1510 /* AlertToast */,
+				19C9034B2C34153D00549C94 /* VideoPlayer */,
+				19C903522C341A9F00549C94 /* AZVideoPlayer */,
 			);
 			productName = SwiftUIListTest;
 			productReference = 199A210C2B540D8900A610AA /* SwiftUIListTest.app */;
@@ -296,6 +352,8 @@
 			mainGroup = 199A21032B540D8900A610AA;
 			packageReferences = (
 				199515D02C0664C200BC1510 /* XCRemoteSwiftPackageReference "AlertToast" */,
+				19C9034A2C34153D00549C94 /* XCRemoteSwiftPackageReference "VideoPlayer" */,
+				19C903512C341A9E00549C94 /* XCRemoteSwiftPackageReference "AZVideoPlayer" */,
 			);
 			productRefGroup = 199A210D2B540D8900A610AA /* Products */;
 			projectDirPath = "";
@@ -331,6 +389,7 @@
 				19C337F82BAA16BA00F00380 /* ViewBuilderTest.swift in Sources */,
 				199515D62C07C76C00BC1510 /* User.swift in Sources */,
 				19F84ED32BA4D5D10081BD8E /* StateTest.swift in Sources */,
+				197953D52C0C74DA00D3A9CD /* DeviceRotationViewModifier.swift in Sources */,
 				19C337F52BA85DA200F00380 /* EdittextView.swift in Sources */,
 				197953C92C0C5A9900D3A9CD /* ViewName.swift in Sources */,
 				19E7F17C2C04EED70009BBD8 /* UserDataShow.swift in Sources */,
@@ -342,18 +401,23 @@
 				199515C82C06578000BC1510 /* PersonInformation.swift in Sources */,
 				199A212C2B54744400A610AA /* CustomNavigationLink.swift in Sources */,
 				19A085EE2B7B889F00B81C2E /* ZSStateExample.swift in Sources */,
+				197953D02C0C6E3000D3A9CD /* ScaneView.swift in Sources */,
 				19E7F1752C04EB780009BBD8 /* Extension.swift in Sources */,
 				199515CD2C065EC000BC1510 /* ProfileView.swift in Sources */,
 				19E7F17A2C04ED540009BBD8 /* Constant.swift in Sources */,
 				19E7F1772C04ECA40009BBD8 /* UserDefaultManager.swift in Sources */,
+				195DB0722C185CE800C8CF75 /* onReceiveView.swift in Sources */,
 				199A21102B540D8900A610AA /* SwiftUIListTestApp.swift in Sources */,
 				197953CD2C0C5B2F00D3A9CD /* MainInfoData.swift in Sources */,
 				199A212A2B54666100A610AA /* CustomList.swift in Sources */,
+				19C903502C34156000549C94 /* ContentVideoPlay.swift in Sources */,
 				19C337F22BA83E5200F00380 /* ObservableViewTest.swift in Sources */,
+				19C903552C341AB800549C94 /* VideoPlaySecond.swift in Sources */,
 				197953CB2C0C5B1700D3A9CD /* InfoData.swift in Sources */,
 				199515D82C07C9A700BC1510 /* ContentViewModel.swift in Sources */,
 				199515CF2C065ED200BC1510 /* ProfileEditView.swift in Sources */,
 				19A085EC2B7B847200B81C2E /* StateExample.swift in Sources */,
+				197953D22C0C729E00D3A9CD /* AppDelegate.swift in Sources */,
 				199A21232B54152300A610AA /* Animal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -572,6 +636,22 @@
 				minimumVersion = 1.3.9;
 			};
 		};
+		19C9034A2C34153D00549C94 /* XCRemoteSwiftPackageReference "VideoPlayer" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/wxxsw/VideoPlayer";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.4;
+			};
+		};
+		19C903512C341A9E00549C94 /* XCRemoteSwiftPackageReference "AZVideoPlayer" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/adamzarn/AZVideoPlayer";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.3.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -579,6 +659,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 199515D02C0664C200BC1510 /* XCRemoteSwiftPackageReference "AlertToast" */;
 			productName = AlertToast;
+		};
+		19C9034B2C34153D00549C94 /* VideoPlayer */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 19C9034A2C34153D00549C94 /* XCRemoteSwiftPackageReference "VideoPlayer" */;
+			productName = VideoPlayer;
+		};
+		19C903522C341A9F00549C94 /* AZVideoPlayer */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 19C903512C341A9E00549C94 /* XCRemoteSwiftPackageReference "AZVideoPlayer" */;
+			productName = AZVideoPlayer;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
