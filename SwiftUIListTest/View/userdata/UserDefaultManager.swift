@@ -10,7 +10,7 @@ import Foundation
 
 class UserDefaultManager : ObservableObject{
     
-     @Published var firstToggle: Bool = UserDefaults.standard.bool(forKey: "firstToggle") {
+      @Published var firstToggle: Bool = UserDefaults.standard.bool(forKey: "firstToggle") {
           didSet { UserDefaults.standard.set(self.firstToggle, forKey: "firstToggle") }
       }
 
@@ -19,9 +19,9 @@ class UserDefaultManager : ObservableObject{
       }
     
     
-    @Published var apiToken : String = (UserDefaults.standard.string(forKey: Constant.API_TOKEN) ?? "Pavel"){
+      @Published var apiToken : String = (UserDefaults.standard.string(forKey: Constant.API_TOKEN) ?? "Pavel"){
         didSet{UserDefaults.standard.set(self.firstToggle, forKey: Constant.API_TOKEN)}
-    }
+      }
     
 //    func clearAllData(){
 //        let userDefault = UserDefaults.standard
@@ -37,6 +37,5 @@ class UserDefaultManager : ObservableObject{
         let domain = Bundle.main.bundleIdentifier!
         UserDefaults.standard.removePersistentDomain(forName: domain)
         UserDefaults.standard.synchronize()
-        
     }
 }

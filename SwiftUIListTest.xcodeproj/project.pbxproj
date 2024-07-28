@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		190854A52C5657F400EA92BB /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190854A42C5657F400EA92BB /* NotificationView.swift */; };
+		190854A72C56580700EA92BB /* NotificationName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190854A62C56580700EA92BB /* NotificationName.swift */; };
 		194189042BA4439A0027A834 /* ParentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194189032BA4439A0027A834 /* ParentView.swift */; };
 		195DB0722C185CE800C8CF75 /* onReceiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195DB0712C185CE800C8CF75 /* onReceiveView.swift */; };
 		197953C72C0C50F300D3A9CD /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197953C62C0C50F300D3A9CD /* TestView.swift */; };
@@ -53,6 +55,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		190854A42C5657F400EA92BB /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		190854A62C56580700EA92BB /* NotificationName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationName.swift; sourceTree = "<group>"; };
 		194189032BA4439A0027A834 /* ParentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentView.swift; sourceTree = "<group>"; };
 		195DB0712C185CE800C8CF75 /* onReceiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onReceiveView.swift; sourceTree = "<group>"; };
 		197953C62C0C50F300D3A9CD /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
@@ -110,6 +114,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		190854A32C5657E100EA92BB /* notification */ = {
+			isa = PBXGroup;
+			children = (
+				190854A42C5657F400EA92BB /* NotificationView.swift */,
+				190854A62C56580700EA92BB /* NotificationName.swift */,
+			);
+			path = notification;
+			sourceTree = "<group>";
+		};
 		195DB0702C185CD900C8CF75 /* onreceive */ = {
 			isa = PBXGroup;
 			children = (
@@ -198,6 +211,7 @@
 		199A21242B54155000A610AA /* View */ = {
 			isa = PBXGroup;
 			children = (
+				190854A32C5657E100EA92BB /* notification */,
 				19C9034D2C34154A00549C94 /* video */,
 				195DB0702C185CD900C8CF75 /* onreceive */,
 				197953D32C0C74BB00D3A9CD /* devicerotation */,
@@ -410,9 +424,11 @@
 				199A21102B540D8900A610AA /* SwiftUIListTestApp.swift in Sources */,
 				197953CD2C0C5B2F00D3A9CD /* MainInfoData.swift in Sources */,
 				199A212A2B54666100A610AA /* CustomList.swift in Sources */,
+				190854A52C5657F400EA92BB /* NotificationView.swift in Sources */,
 				19C903502C34156000549C94 /* ContentVideoPlay.swift in Sources */,
 				19C337F22BA83E5200F00380 /* ObservableViewTest.swift in Sources */,
 				19C903552C341AB800549C94 /* VideoPlaySecond.swift in Sources */,
+				190854A72C56580700EA92BB /* NotificationName.swift in Sources */,
 				197953CB2C0C5B1700D3A9CD /* InfoData.swift in Sources */,
 				199515D82C07C9A700BC1510 /* ContentViewModel.swift in Sources */,
 				199515CF2C065ED200BC1510 /* ProfileEditView.swift in Sources */,
