@@ -17,7 +17,7 @@ struct ProfileView: View {
         NavigationStack{
             List{
                 NavigationLink{
-                    EditEmailView(viewModel: viewModel)
+                    EditAddressView(viewModel: viewModel)
                 }label: {
                     HStack{
                         Text("JD")

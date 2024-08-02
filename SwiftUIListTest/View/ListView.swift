@@ -78,8 +78,8 @@ struct ListView: View {
                 NavigationLink{
                     DetailsView()
                 }label: {
-                    CustomList(animal: animal, contentClick: {
-                        print("\(animal.title)")
+                    CustomList(animal: animal, contentClick: {value in
+                        print("\(value)")
                     })
                 }
             }

@@ -35,7 +35,7 @@ class DeviceRotationInfo : ObservableObject{
 
 extension View {
     func onRotate(perform action : @escaping (UIDeviceOrientation) -> Void) -> some View{
-        self.modifier(DeviceRotationViewModifier(action: action))
+       self.modifier(DeviceRotationViewModifier(action: action))
     }
 }
 

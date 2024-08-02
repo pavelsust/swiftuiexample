@@ -11,12 +11,14 @@ import SwiftUI
 struct SwiftUIListTestApp: App {
     
     @StateObject var viewModel : MainInfoData = MainInfoData()
+    @StateObject var contentViewModel : ContentViewModel = ContentViewModel()
     @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
     
     var body: some Scene {
         WindowGroup {
-            DeviceRotationVew()
+            TestView()
                 .environmentObject(viewModel)
+                .environmentObject(contentViewModel)
         }
     }
 }

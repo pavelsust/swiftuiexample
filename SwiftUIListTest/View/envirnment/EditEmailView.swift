@@ -56,6 +56,17 @@ struct EditAddressView : View {
                 .background(.white)
                 .cornerRadius(20)
                 .shadow(color: Color.black.opacity(0.08), radius: 60, x: 0 , y: 20)
+            
+            TextField("Edit your address", text: $address)
+                .frame(height: 50)
+                .textFieldStyle(.automatic)
+                .cornerRadius(16)
+                .padding(.horizontal , 4)
+                .overlay(RoundedRectangle(cornerRadius: 5).stroke(Color.gray))
+                .padding(.horizontal , 10)
+            
+            
+            
                 Divider()
             Spacer()
         }
@@ -73,3 +84,7 @@ struct EditAddressView : View {
     }
 }
 
+
+#Preview {
+    EditAddressView(viewModel: ContentViewModel())
+}
