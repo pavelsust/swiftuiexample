@@ -34,17 +34,16 @@ struct CustomList: View {
                         .foregroundColor(.gray)
                 }
                 
-            }.frame(height: 80)
+            }.frame(height: 50)
                 .padding()
                 .onTapGesture(perform: {
                     contentClick(animal.title)
                 })
         }
-        .frame(width: .infinity , height: 60)
+        .frame(width: .infinity, height: 65)
         .shadow(radius: 5)
         .background(.white)
         .foregroundColor(.white)
-        .padding()
     }
 }
 

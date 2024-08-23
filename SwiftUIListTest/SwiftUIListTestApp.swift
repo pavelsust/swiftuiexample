@@ -16,7 +16,7 @@ struct SwiftUIListTestApp: App {
     
     var body: some Scene {
         WindowGroup {
-            TestView()
+            LoginScreen()
                 .environmentObject(viewModel)
                 .environmentObject(contentViewModel)
         }

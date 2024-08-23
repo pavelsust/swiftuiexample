@@ -24,7 +24,7 @@ struct ViewBuilderTest: View {
 //        })
         
         CustomCardView(content: {
-            Text("Hello World!!")
+            Text("Hello")
         })
         .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: 100)
         buildDynamicView(condition: false)
@@ -36,8 +36,7 @@ struct ViewBuilderTest: View {
 
 struct ShadowBorderModifier: ViewModifier{
     func body(content: Content) -> some View {
-        content
-            .shadow(radius: 5)
+        content.shadow(radius: 5)
     }
 }
 

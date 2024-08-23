@@ -25,6 +25,8 @@
 		199515D42C07BD7400BC1510 /* EditEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199515D32C07BD7400BC1510 /* EditEmailView.swift */; };
 		199515D62C07C76C00BC1510 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199515D52C07C76C00BC1510 /* User.swift */; };
 		199515D82C07C9A700BC1510 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199515D72C07C9A700BC1510 /* ContentViewModel.swift */; };
+		199638302C774A9D00E25132 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1996382F2C774A9D00E25132 /* LoginScreen.swift */; };
+		199638322C77577000E25132 /* CustomFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199638312C77577000E25132 /* CustomFieldView.swift */; };
 		199A21102B540D8900A610AA /* SwiftUIListTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199A210F2B540D8900A610AA /* SwiftUIListTestApp.swift */; };
 		199A21122B540D8900A610AA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199A21112B540D8900A610AA /* ContentView.swift */; };
 		199A21142B540D8B00A610AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 199A21132B540D8B00A610AA /* Assets.xcassets */; };
@@ -72,6 +74,8 @@
 		199515D32C07BD7400BC1510 /* EditEmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditEmailView.swift; sourceTree = "<group>"; };
 		199515D52C07C76C00BC1510 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		199515D72C07C9A700BC1510 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		1996382F2C774A9D00E25132 /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
+		199638312C77577000E25132 /* CustomFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFieldView.swift; sourceTree = "<group>"; };
 		199A210C2B540D8900A610AA /* SwiftUIListTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIListTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		199A210F2B540D8900A610AA /* SwiftUIListTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIListTestApp.swift; sourceTree = "<group>"; };
 		199A21112B540D8900A610AA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -163,6 +167,15 @@
 			path = envirnment;
 			sourceTree = "<group>";
 		};
+		1996382E2C774A6100E25132 /* loginscreen */ = {
+			isa = PBXGroup;
+			children = (
+				1996382F2C774A9D00E25132 /* LoginScreen.swift */,
+				199638312C77577000E25132 /* CustomFieldView.swift */,
+			);
+			path = loginscreen;
+			sourceTree = "<group>";
+		};
 		199A21032B540D8900A610AA = {
 			isa = PBXGroup;
 			children = (
@@ -211,6 +224,7 @@
 		199A21242B54155000A610AA /* View */ = {
 			isa = PBXGroup;
 			children = (
+				1996382E2C774A6100E25132 /* loginscreen */,
 				190854A32C5657E100EA92BB /* notification */,
 				19C9034D2C34154A00549C94 /* video */,
 				195DB0702C185CD900C8CF75 /* onreceive */,
@@ -403,12 +417,14 @@
 				19C337F82BAA16BA00F00380 /* ViewBuilderTest.swift in Sources */,
 				199515D62C07C76C00BC1510 /* User.swift in Sources */,
 				19F84ED32BA4D5D10081BD8E /* StateTest.swift in Sources */,
+				199638322C77577000E25132 /* CustomFieldView.swift in Sources */,
 				197953D52C0C74DA00D3A9CD /* DeviceRotationViewModifier.swift in Sources */,
 				19C337F52BA85DA200F00380 /* EdittextView.swift in Sources */,
 				197953C92C0C5A9900D3A9CD /* ViewName.swift in Sources */,
 				19E7F17C2C04EED70009BBD8 /* UserDataShow.swift in Sources */,
 				19EBC62B2B57F6A6003551B0 /* CircleImage.swift in Sources */,
 				199515D42C07BD7400BC1510 /* EditEmailView.swift in Sources */,
+				199638302C774A9D00E25132 /* LoginScreen.swift in Sources */,
 				199A21282B5419FF00A610AA /* DetailsView.swift in Sources */,
 				194189042BA4439A0027A834 /* ParentView.swift in Sources */,
 				199A21122B540D8900A610AA /* ContentView.swift in Sources */,

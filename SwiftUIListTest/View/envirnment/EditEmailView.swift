@@ -65,9 +65,6 @@ struct EditAddressView : View {
                 .overlay(RoundedRectangle(cornerRadius: 5).stroke(Color.gray))
                 .padding(.horizontal , 10)
             
-            
-            
-                Divider()
             Spacer()
         }
         .navigationTitle("Edit Address")

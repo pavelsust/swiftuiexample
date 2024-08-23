@@ -74,13 +74,16 @@ struct ListView: View {
     var body: some View{
         
         NavigationStack{
-            List(animalList , id: \.id){ animal in
-                NavigationLink{
-                    DetailsView()
-                }label: {
-                    CustomList(animal: animal, contentClick: {value in
-                        print("\(value)")
-                    })
+            ScrollView(.vertical , showsIndicators: false){
+                ForEach(animalList , id: \.id){ animal in
+                    NavigationLink{
+                        DetailsView()
+                    }label: {
+                        CustomList(animal: animal, contentClick: {value in
+                            print("\(value)")
+                        })
+                        
+                    }
                 }
             }
             .navigationTitle("List Item")

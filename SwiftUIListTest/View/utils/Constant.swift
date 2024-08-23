@@ -15,7 +15,7 @@ class Constant {
 }
 
 
-struct PrimaryLabel : ViewModifier{
+struct PrimaryLabel : ViewModifier {
     func body(content : Content) -> some View{
         content
             .padding()
@@ -25,11 +25,19 @@ struct PrimaryLabel : ViewModifier{
     }
 }
 
-struct CustomTitle : ViewModifier{
+struct CustomTitle : ViewModifier {
     func body(content: Content) -> some View {
         content.font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
             .foregroundColor(/*@START_MENU_TOKEN@*/.blue/*@END_MENU_TOKEN@*/)
             .font(.footnote)
+    }
+}
+
+struct CustomSeeMoreTitle: ViewModifier{
+    func body(content: Content) -> some View {
+        content
+            .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
+            .foregroundColor(/*@START_MENU_TOKEN@*/.blue/*@END_MENU_TOKEN@*/)
     }
 }
 
@@ -40,5 +48,9 @@ extension View {
     
     func makeCustomTitle() -> some View{
         ModifiedContent(content: self, modifier: CustomTitle())
+    }
+    
+    func customSeeMore() -> some View {
+        ModifiedContent(content: self, modifier: CustomSeeMoreTitle())
     }
 }
