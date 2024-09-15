@@ -33,6 +33,15 @@ struct CustomTitle : ViewModifier {
     }
 }
 
+struct CustomModel : ViewModifier{
+    func body(content: Content) -> some View {
+        content
+            .font(.title)
+            .background()
+            .foregroundColor(.red)
+    }
+}
+
 struct CustomSeeMoreTitle: ViewModifier{
     func body(content: Content) -> some View {
         content
@@ -52,5 +61,9 @@ extension View {
     
     func customSeeMore() -> some View {
         ModifiedContent(content: self, modifier: CustomSeeMoreTitle())
+    }
+    
+    func customModel() -> some View{
+        ModifiedContent(content: self, modifier: CustomModel())
     }
 }

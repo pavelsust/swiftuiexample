@@ -11,6 +11,10 @@
 		190854A72C56580700EA92BB /* NotificationName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190854A62C56580700EA92BB /* NotificationName.swift */; };
 		194189042BA4439A0027A834 /* ParentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194189032BA4439A0027A834 /* ParentView.swift */; };
 		195DB0722C185CE800C8CF75 /* onReceiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195DB0712C185CE800C8CF75 /* onReceiveView.swift */; };
+		196241812C7CBC6A007815CF /* ListExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196241802C7CBC6A007815CF /* ListExample.swift */; };
+		19732FEB2C95A65C00F6AFA5 /* PartialState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19732FEA2C95A65C00F6AFA5 /* PartialState.swift */; };
+		19732FEE2C96088800F6AFA5 /* ListApprochItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19732FED2C96088800F6AFA5 /* ListApprochItem.swift */; };
+		19732FF02C96DA9F00F6AFA5 /* ListApproachView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19732FEF2C96DA9F00F6AFA5 /* ListApproachView.swift */; };
 		197953C72C0C50F300D3A9CD /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197953C62C0C50F300D3A9CD /* TestView.swift */; };
 		197953C92C0C5A9900D3A9CD /* ViewName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197953C82C0C5A9900D3A9CD /* ViewName.swift */; };
 		197953CB2C0C5B1700D3A9CD /* InfoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197953CA2C0C5B1700D3A9CD /* InfoData.swift */; };
@@ -36,6 +40,7 @@
 		199A21282B5419FF00A610AA /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199A21272B5419FF00A610AA /* DetailsView.swift */; };
 		199A212A2B54666100A610AA /* CustomList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199A21292B54666100A610AA /* CustomList.swift */; };
 		199A212C2B54744400A610AA /* CustomNavigationLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199A212B2B54744400A610AA /* CustomNavigationLink.swift */; };
+		19A02B7E2C8C5EC1000D00EC /* MenuExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A02B7D2C8C5EC1000D00EC /* MenuExample.swift */; };
 		19A085EC2B7B847200B81C2E /* StateExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A085EB2B7B847200B81C2E /* StateExample.swift */; };
 		19A085EE2B7B889F00B81C2E /* ZSStateExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A085ED2B7B889F00B81C2E /* ZSStateExample.swift */; };
 		19A085F02B7BA9DA00B81C2E /* ShowStateDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A085EF2B7BA9DA00B81C2E /* ShowStateDetailView.swift */; };
@@ -61,6 +66,10 @@
 		190854A62C56580700EA92BB /* NotificationName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationName.swift; sourceTree = "<group>"; };
 		194189032BA4439A0027A834 /* ParentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentView.swift; sourceTree = "<group>"; };
 		195DB0712C185CE800C8CF75 /* onReceiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onReceiveView.swift; sourceTree = "<group>"; };
+		196241802C7CBC6A007815CF /* ListExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListExample.swift; sourceTree = "<group>"; };
+		19732FEA2C95A65C00F6AFA5 /* PartialState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartialState.swift; sourceTree = "<group>"; };
+		19732FED2C96088800F6AFA5 /* ListApprochItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListApprochItem.swift; sourceTree = "<group>"; };
+		19732FEF2C96DA9F00F6AFA5 /* ListApproachView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListApproachView.swift; sourceTree = "<group>"; };
 		197953C62C0C50F300D3A9CD /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 		197953C82C0C5A9900D3A9CD /* ViewName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewName.swift; sourceTree = "<group>"; };
 		197953CA2C0C5B1700D3A9CD /* InfoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoData.swift; sourceTree = "<group>"; };
@@ -86,6 +95,7 @@
 		199A21272B5419FF00A610AA /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
 		199A21292B54666100A610AA /* CustomList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomList.swift; sourceTree = "<group>"; };
 		199A212B2B54744400A610AA /* CustomNavigationLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationLink.swift; sourceTree = "<group>"; };
+		19A02B7D2C8C5EC1000D00EC /* MenuExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuExample.swift; sourceTree = "<group>"; };
 		19A085EB2B7B847200B81C2E /* StateExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateExample.swift; sourceTree = "<group>"; };
 		19A085ED2B7B889F00B81C2E /* ZSStateExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZSStateExample.swift; sourceTree = "<group>"; };
 		19A085EF2B7BA9DA00B81C2E /* ShowStateDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowStateDetailView.swift; sourceTree = "<group>"; };
@@ -133,6 +143,31 @@
 				195DB0712C185CE800C8CF75 /* onReceiveView.swift */,
 			);
 			path = onreceive;
+			sourceTree = "<group>";
+		};
+		1962417F2C7CBC5C007815CF /* list */ = {
+			isa = PBXGroup;
+			children = (
+				196241802C7CBC6A007815CF /* ListExample.swift */,
+			);
+			path = list;
+			sourceTree = "<group>";
+		};
+		19732FE92C95A64400F6AFA5 /* property */ = {
+			isa = PBXGroup;
+			children = (
+				19732FEA2C95A65C00F6AFA5 /* PartialState.swift */,
+			);
+			path = property;
+			sourceTree = "<group>";
+		};
+		19732FEC2C96086400F6AFA5 /* improvment */ = {
+			isa = PBXGroup;
+			children = (
+				19732FED2C96088800F6AFA5 /* ListApprochItem.swift */,
+				19732FEF2C96DA9F00F6AFA5 /* ListApproachView.swift */,
+			);
+			path = improvment;
 			sourceTree = "<group>";
 		};
 		197953CE2C0C6E1C00D3A9CD /* scane */ = {
@@ -224,6 +259,10 @@
 		199A21242B54155000A610AA /* View */ = {
 			isa = PBXGroup;
 			children = (
+				19732FEC2C96086400F6AFA5 /* improvment */,
+				19732FE92C95A64400F6AFA5 /* property */,
+				19A02B7C2C8C5EAB000D00EC /* menu example */,
+				1962417F2C7CBC5C007815CF /* list */,
 				1996382E2C774A6100E25132 /* loginscreen */,
 				190854A32C5657E100EA92BB /* notification */,
 				19C9034D2C34154A00549C94 /* video */,
@@ -251,6 +290,14 @@
 				197953D12C0C729E00D3A9CD /* AppDelegate.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		19A02B7C2C8C5EAB000D00EC /* menu example */ = {
+			isa = PBXGroup;
+			children = (
+				19A02B7D2C8C5EC1000D00EC /* MenuExample.swift */,
+			);
+			path = "menu example";
 			sourceTree = "<group>";
 		};
 		19C337F02BA83E3B00F00380 /* observable */ = {
@@ -418,6 +465,7 @@
 				199515D62C07C76C00BC1510 /* User.swift in Sources */,
 				19F84ED32BA4D5D10081BD8E /* StateTest.swift in Sources */,
 				199638322C77577000E25132 /* CustomFieldView.swift in Sources */,
+				19732FF02C96DA9F00F6AFA5 /* ListApproachView.swift in Sources */,
 				197953D52C0C74DA00D3A9CD /* DeviceRotationViewModifier.swift in Sources */,
 				19C337F52BA85DA200F00380 /* EdittextView.swift in Sources */,
 				197953C92C0C5A9900D3A9CD /* ViewName.swift in Sources */,
@@ -434,6 +482,8 @@
 				197953D02C0C6E3000D3A9CD /* ScaneView.swift in Sources */,
 				19E7F1752C04EB780009BBD8 /* Extension.swift in Sources */,
 				199515CD2C065EC000BC1510 /* ProfileView.swift in Sources */,
+				19732FEB2C95A65C00F6AFA5 /* PartialState.swift in Sources */,
+				19A02B7E2C8C5EC1000D00EC /* MenuExample.swift in Sources */,
 				19E7F17A2C04ED540009BBD8 /* Constant.swift in Sources */,
 				19E7F1772C04ECA40009BBD8 /* UserDefaultManager.swift in Sources */,
 				195DB0722C185CE800C8CF75 /* onReceiveView.swift in Sources */,
@@ -441,6 +491,7 @@
 				197953CD2C0C5B2F00D3A9CD /* MainInfoData.swift in Sources */,
 				199A212A2B54666100A610AA /* CustomList.swift in Sources */,
 				190854A52C5657F400EA92BB /* NotificationView.swift in Sources */,
+				19732FEE2C96088800F6AFA5 /* ListApprochItem.swift in Sources */,
 				19C903502C34156000549C94 /* ContentVideoPlay.swift in Sources */,
 				19C337F22BA83E5200F00380 /* ObservableViewTest.swift in Sources */,
 				19C903552C341AB800549C94 /* VideoPlaySecond.swift in Sources */,
@@ -449,6 +500,7 @@
 				199515D82C07C9A700BC1510 /* ContentViewModel.swift in Sources */,
 				199515CF2C065ED200BC1510 /* ProfileEditView.swift in Sources */,
 				19A085EC2B7B847200B81C2E /* StateExample.swift in Sources */,
+				196241812C7CBC6A007815CF /* ListExample.swift in Sources */,
 				197953D22C0C729E00D3A9CD /* AppDelegate.swift in Sources */,
 				199A21232B54152300A610AA /* Animal.swift in Sources */,
 			);

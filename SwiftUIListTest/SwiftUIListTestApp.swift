@@ -19,6 +19,7 @@ struct SwiftUIListTestApp: App {
             LoginScreen()
                 .environmentObject(viewModel)
                 .environmentObject(contentViewModel)
+                .preferredColorScheme(.light)
         }
     }
 }

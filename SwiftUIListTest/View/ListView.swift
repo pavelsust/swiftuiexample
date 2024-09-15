@@ -156,3 +156,4 @@ struct CustomHorizontalItem : View {
         .padding(.leading , 15)
     }
 }
+
