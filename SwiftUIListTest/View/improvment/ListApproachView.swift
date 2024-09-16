@@ -6,19 +6,38 @@
 //
 
 import SwiftUI
+import Combine
 
 struct ListApproachView: View {
     
     @StateObject private var approachViewModel = ListApprochViewModel()
-    
+    @State var openDetails = false
+   
     
     var body: some View {
-        List(approachViewModel.items, id: \.id) { item in
-            ListApprochChildView(item: item, onFavouriteToggle: { item in
-                approachViewModel.makeFavourite(for: item)
-            })
+        NavigationStack{
+            VStack{
+                Button(action: {
+                    openDetails = true
+                }, label: {
+                    Text("Button")
+                })
+            }
+            .navigationDestination(isPresented: $openDetails) {
+                DetailsView()
+            }
+            
+            List(approachViewModel.items, id: \.id) { item in
+                ListApprochChildView(item: item, onFavouriteToggle: { item in
+                    approachViewModel.makeFavourite(for: item)
+                })
+            }
         }
     }
+}
+
+#Preview {
+    ListApproachView()
 }
 
 
@@ -52,8 +71,4 @@ struct ListApprochChildView : View{
             }
         }
     }
-}
-
-#Preview {
-    ListApproachView()
 }

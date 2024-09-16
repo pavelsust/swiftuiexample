@@ -14,11 +14,13 @@ struct MenuExample: View {
     @State private var isFeatureEnabled = false
     // State variable to control the display of an action sheet
     @State private var showingActionSheet = false
+    @State private var showSheet = false
     var body: some View {
         VStack {
             // First button with a simple action that prints a message to the console when clicked
             Button(action: {
                 print("Button clicked!")
+                showSheet.toggle()
             }) {
                 Text("Click Me")
                     .padding()
@@ -71,6 +73,9 @@ struct MenuExample: View {
             Button("Show Action Sheet") {
                 showingActionSheet = true
             }
+            .sheet(isPresented: $showSheet, content: {
+                DetailsView()
+            })
             .actionSheet(isPresented: $showingActionSheet) {
                 ActionSheet(
                     title: Text("Options"),

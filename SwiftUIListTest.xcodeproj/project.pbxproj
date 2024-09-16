@@ -15,6 +15,8 @@
 		19732FEB2C95A65C00F6AFA5 /* PartialState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19732FEA2C95A65C00F6AFA5 /* PartialState.swift */; };
 		19732FEE2C96088800F6AFA5 /* ListApprochItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19732FED2C96088800F6AFA5 /* ListApprochItem.swift */; };
 		19732FF02C96DA9F00F6AFA5 /* ListApproachView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19732FEF2C96DA9F00F6AFA5 /* ListApproachView.swift */; };
+		19732FFB2C97233B00F6AFA5 /* extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19732FFA2C97233B00F6AFA5 /* extension.swift */; };
+		19732FFD2C982EFE00F6AFA5 /* TestSub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19732FFC2C982EFE00F6AFA5 /* TestSub.swift */; };
 		197953C72C0C50F300D3A9CD /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197953C62C0C50F300D3A9CD /* TestView.swift */; };
 		197953C92C0C5A9900D3A9CD /* ViewName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197953C82C0C5A9900D3A9CD /* ViewName.swift */; };
 		197953CB2C0C5B1700D3A9CD /* InfoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197953CA2C0C5B1700D3A9CD /* InfoData.swift */; };
@@ -70,6 +72,8 @@
 		19732FEA2C95A65C00F6AFA5 /* PartialState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartialState.swift; sourceTree = "<group>"; };
 		19732FED2C96088800F6AFA5 /* ListApprochItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListApprochItem.swift; sourceTree = "<group>"; };
 		19732FEF2C96DA9F00F6AFA5 /* ListApproachView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListApproachView.swift; sourceTree = "<group>"; };
+		19732FFA2C97233B00F6AFA5 /* extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extension.swift; sourceTree = "<group>"; };
+		19732FFC2C982EFE00F6AFA5 /* TestSub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSub.swift; sourceTree = "<group>"; };
 		197953C62C0C50F300D3A9CD /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 		197953C82C0C5A9900D3A9CD /* ViewName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewName.swift; sourceTree = "<group>"; };
 		197953CA2C0C5B1700D3A9CD /* InfoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoData.swift; sourceTree = "<group>"; };
@@ -157,6 +161,7 @@
 			isa = PBXGroup;
 			children = (
 				19732FEA2C95A65C00F6AFA5 /* PartialState.swift */,
+				19732FFC2C982EFE00F6AFA5 /* TestSub.swift */,
 			);
 			path = property;
 			sourceTree = "<group>";
@@ -164,10 +169,20 @@
 		19732FEC2C96086400F6AFA5 /* improvment */ = {
 			isa = PBXGroup;
 			children = (
+				19732FF92C97232900F6AFA5 /* publish */,
+				19732FE92C95A64400F6AFA5 /* property */,
 				19732FED2C96088800F6AFA5 /* ListApprochItem.swift */,
 				19732FEF2C96DA9F00F6AFA5 /* ListApproachView.swift */,
 			);
 			path = improvment;
+			sourceTree = "<group>";
+		};
+		19732FF92C97232900F6AFA5 /* publish */ = {
+			isa = PBXGroup;
+			children = (
+				19732FFA2C97233B00F6AFA5 /* extension.swift */,
+			);
+			path = publish;
 			sourceTree = "<group>";
 		};
 		197953CE2C0C6E1C00D3A9CD /* scane */ = {
@@ -260,7 +275,6 @@
 			isa = PBXGroup;
 			children = (
 				19732FEC2C96086400F6AFA5 /* improvment */,
-				19732FE92C95A64400F6AFA5 /* property */,
 				19A02B7C2C8C5EAB000D00EC /* menu example */,
 				1962417F2C7CBC5C007815CF /* list */,
 				1996382E2C774A6100E25132 /* loginscreen */,
@@ -492,9 +506,11 @@
 				199A212A2B54666100A610AA /* CustomList.swift in Sources */,
 				190854A52C5657F400EA92BB /* NotificationView.swift in Sources */,
 				19732FEE2C96088800F6AFA5 /* ListApprochItem.swift in Sources */,
+				19732FFD2C982EFE00F6AFA5 /* TestSub.swift in Sources */,
 				19C903502C34156000549C94 /* ContentVideoPlay.swift in Sources */,
 				19C337F22BA83E5200F00380 /* ObservableViewTest.swift in Sources */,
 				19C903552C341AB800549C94 /* VideoPlaySecond.swift in Sources */,
+				19732FFB2C97233B00F6AFA5 /* extension.swift in Sources */,
 				190854A72C56580700EA92BB /* NotificationName.swift in Sources */,
 				197953CB2C0C5B1700D3A9CD /* InfoData.swift in Sources */,
 				199515D82C07C9A700BC1510 /* ContentViewModel.swift in Sources */,
